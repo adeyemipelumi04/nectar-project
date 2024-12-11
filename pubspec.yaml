@@ -1,0 +1,35 @@
+name: nectar
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  country_flags: ^3.0.0
+  flag: 
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+   - lib/assets/images/
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: lib/assets/fonts/Gilroy-Regular.ttf
+        - asset: lib/assets/fonts/Gilroy-ThinItalic.ttf
+          style: italic
+    - family: Gilroy
+      fonts:
+        - asset: lib/assets/fonts/Gilroy-Medium.ttf
+        - asset: lib/assets/fonts/Gilroy-Bold.ttf
+          weight: 700
